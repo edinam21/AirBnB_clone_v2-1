@@ -1,0 +1,78 @@
+.container section.places h1{
+    text-align:left;
+    font-size: 30px;
+}
+.container section.places article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: solid 1px #ff5a5f;
+    border-radius: 4px;
+}
+.container section.places article h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.container section.places div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container section.places h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container section.places div article .price_by_night{
+    color: #ff5a5f;
+    border: solid 1px #ff5a5f;
+    min-width: 60px;
+    border-radius: 4px;
+    height: 60px;
+    font-size: 30px;
+}
+.container section.places div article .information{
+    height: 80px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-top:solid 1px #dddddd;
+    border-bottom:solid 1px #dddddd;
+    
+}
+.container section.places div article .information .max_guest{
+    content: url('../images/guest.png');
+    width: 100px;
+
+}
+.container section.places div article .information .number_rooms{
+    content: url('../images/bedroom.png');
+    width: 100px;
+
+}
+.container section.places div article .information .number_bathrooms{
+    content: url('../images/bathroom.png');
+    width: 100px;
+
+
+}
+
+
+.container section.places div article .information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container section.places div article .user{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.container section.places div article .description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
